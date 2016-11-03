@@ -43,7 +43,7 @@ public static void main(String[] args) throws ParseException, FileNotFoundExcept
 				if (Time.before(endDate) && Time.after(beginDate)) {
 					
 					// 对在时间区间内的数据进行输出
-					System.out.println(strIp + "\t" + regularFormat.format(Time));
+					System.out.println(strIp);
 				}
 			}
 		}
